@@ -1,0 +1,396 @@
+[2023-11-30T02:13:30.625+0200] {processor.py:157} INFO - Started process (PID=1195) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:13:30.627+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:13:30.627+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:13:30.627+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:13:30.632+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:13:30.631+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:13:30.632+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:13:30.632+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:13:30.632+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:13:30.642+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-11-30T02:14:20.064+0200] {processor.py:157} INFO - Started process (PID=1333) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:14:20.066+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:14:20.067+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:14:20.067+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:14:20.071+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:14:20.070+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:14:20.071+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:14:20.071+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:14:20.071+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:14:20.080+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2023-11-30T02:15:06.055+0200] {processor.py:157} INFO - Started process (PID=1495) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:06.067+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:15:06.068+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:06.068+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:06.072+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:06.071+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:15:06.072+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:06.072+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:15:06.072+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:06.082+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-11-30T02:15:49.389+0200] {processor.py:157} INFO - Started process (PID=1667) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:49.401+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:15:49.402+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:49.402+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:49.405+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:49.404+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:15:49.405+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:15:49.405+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:15:49.405+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:15:49.414+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-11-30T02:16:39.587+0200] {processor.py:157} INFO - Started process (PID=1862) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:16:39.598+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:16:39.599+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:16:39.599+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:16:39.604+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:16:39.603+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:16:39.604+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:16:39.604+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:16:39.604+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:16:39.614+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-11-30T02:17:20.930+0200] {processor.py:157} INFO - Started process (PID=2030) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:17:20.942+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:17:20.943+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:17:20.943+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:17:20.947+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:17:20.946+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:17:20.947+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:17:20.947+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:17:20.947+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:17:20.956+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:18:04.553+0200] {processor.py:157} INFO - Started process (PID=2207) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:04.555+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:18:04.556+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:04.556+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:04.560+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:04.559+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:18:04.560+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:04.560+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:18:04.560+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:04.571+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-11-30T02:18:45.636+0200] {processor.py:157} INFO - Started process (PID=2371) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:45.639+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:18:45.640+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:45.639+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:45.643+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:45.643+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:18:45.643+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:18:45.643+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:18:45.644+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:18:45.656+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-11-30T02:19:33.146+0200] {processor.py:157} INFO - Started process (PID=2560) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:19:33.149+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:19:33.149+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:19:33.149+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:19:33.153+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:19:33.152+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:19:33.153+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:19:33.153+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:19:33.153+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:19:33.162+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2023-11-30T02:20:15.378+0200] {processor.py:157} INFO - Started process (PID=2730) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:20:15.380+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:20:15.381+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:20:15.380+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:20:15.384+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:20:15.384+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:20:15.384+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:20:15.384+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:20:15.385+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:20:15.393+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2023-11-30T02:21:00.997+0200] {processor.py:157} INFO - Started process (PID=2908) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:01.009+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:21:01.010+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:01.009+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:01.013+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:01.013+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:21:01.014+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:01.013+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:21:01.014+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:01.021+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-11-30T02:21:43.816+0200] {processor.py:157} INFO - Started process (PID=3074) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:43.828+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:21:43.829+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:43.829+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:43.834+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:43.833+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:21:43.834+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:21:43.834+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:21:43.834+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:21:43.843+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-11-30T02:22:26.275+0200] {processor.py:157} INFO - Started process (PID=3247) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:22:26.288+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:22:26.289+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:22:26.288+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:22:26.292+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:22:26.291+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:22:26.292+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:22:26.292+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:22:26.292+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:22:26.300+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:23:12.910+0200] {processor.py:157} INFO - Started process (PID=3427) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:12.922+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:23:12.923+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:12.923+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:12.927+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:12.927+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:23:12.928+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:12.928+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:23:12.928+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:12.940+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2023-11-30T02:23:57.312+0200] {processor.py:157} INFO - Started process (PID=3604) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:57.323+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:23:57.324+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:57.324+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:57.328+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:57.327+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:23:57.328+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:23:57.328+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:23:57.328+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:23:57.337+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:24:44.166+0200] {processor.py:157} INFO - Started process (PID=3791) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:24:44.178+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:24:44.179+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:24:44.178+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:24:44.181+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:24:44.181+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:24:44.182+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:24:44.182+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:24:44.182+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:24:44.191+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-11-30T02:25:17.208+0200] {processor.py:157} INFO - Started process (PID=3922) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:17.208+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:25:17.209+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:17.209+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:17.212+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:17.212+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:25:17.212+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:17.212+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:25:17.212+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:17.222+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2023-11-30T02:25:57.332+0200] {processor.py:157} INFO - Started process (PID=4078) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:57.344+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:25:57.345+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:57.345+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:57.348+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:57.348+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:25:57.348+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:25:57.348+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:25:57.349+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:25:57.358+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:26:43.805+0200] {processor.py:157} INFO - Started process (PID=4262) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:26:43.817+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:26:43.818+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:26:43.817+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:26:43.822+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:26:43.821+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:26:43.822+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:26:43.822+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:26:43.822+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:26:43.831+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:27:18.597+0200] {processor.py:157} INFO - Started process (PID=4395) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:18.598+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:27:18.599+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:18.599+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:18.602+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:18.601+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:27:18.602+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:18.602+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:27:18.602+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:18.611+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2023-11-30T02:27:51.914+0200] {processor.py:157} INFO - Started process (PID=4530) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:51.927+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:27:51.928+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:51.927+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:51.931+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:51.931+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:27:51.931+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:27:51.931+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:27:51.931+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:27:51.940+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:28:35.153+0200] {processor.py:157} INFO - Started process (PID=4696) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:28:35.165+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:28:35.166+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:28:35.165+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:28:35.169+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:28:35.169+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:28:35.169+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:28:35.169+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:28:35.170+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:28:35.179+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:29:22.267+0200] {processor.py:157} INFO - Started process (PID=4884) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:29:22.269+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:29:22.270+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:29:22.270+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:29:22.273+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:29:22.272+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:29:22.273+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:29:22.273+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:29:22.273+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:29:22.282+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2023-11-30T02:30:05.760+0200] {processor.py:157} INFO - Started process (PID=5057) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:05.772+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:30:05.772+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:05.772+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:05.775+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:05.775+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:30:05.776+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:05.776+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:30:05.776+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:05.784+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-11-30T02:30:50.884+0200] {processor.py:157} INFO - Started process (PID=5236) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:50.896+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:30:50.897+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:50.897+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:50.901+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:50.900+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:30:50.901+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:30:50.901+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:30:50.901+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:30:50.910+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:31:37.101+0200] {processor.py:157} INFO - Started process (PID=5416) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:31:37.112+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:31:37.113+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:31:37.113+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:31:37.117+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:31:37.117+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:31:37.117+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:31:37.117+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:31:37.118+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:31:37.126+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:32:20.484+0200] {processor.py:157} INFO - Started process (PID=5589) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:32:20.497+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:32:20.498+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:32:20.497+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:32:20.501+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:32:20.500+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:32:20.502+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:32:20.501+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:32:20.502+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:32:20.512+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-11-30T02:33:07.749+0200] {processor.py:157} INFO - Started process (PID=5803) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:07.758+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:33:07.759+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:07.759+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:07.763+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:07.762+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:33:07.763+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:07.763+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:33:07.764+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:07.772+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-11-30T02:33:55.535+0200] {processor.py:157} INFO - Started process (PID=5989) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:55.547+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:33:55.548+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:55.547+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:55.551+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:55.551+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:33:55.551+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:33:55.551+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:33:55.552+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:33:55.563+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2023-11-30T02:34:43.612+0200] {processor.py:157} INFO - Started process (PID=6184) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:34:43.624+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:34:43.625+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:34:43.625+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:34:43.628+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:34:43.628+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:34:43.629+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:34:43.629+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:34:43.629+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:34:43.637+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:35:18.413+0200] {processor.py:157} INFO - Started process (PID=6322) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:35:18.415+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:35:18.416+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:35:18.416+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:35:18.424+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:35:18.422+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:35:18.424+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:35:18.424+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:35:18.425+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:35:18.447+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2023-11-30T02:36:02.483+0200] {processor.py:157} INFO - Started process (PID=6499) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:02.494+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:36:02.495+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:02.495+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:02.498+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:02.498+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:36:02.499+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:02.498+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:36:02.499+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:02.508+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:36:49.308+0200] {processor.py:157} INFO - Started process (PID=6684) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:49.320+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:36:49.321+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:49.320+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:49.324+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:49.323+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:36:49.324+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:36:49.324+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:36:49.325+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:36:49.334+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-11-30T02:37:23.430+0200] {processor.py:157} INFO - Started process (PID=6819) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:37:23.432+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:37:23.433+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:37:23.433+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:37:23.436+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:37:23.435+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:37:23.436+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:37:23.436+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:37:23.436+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:37:23.448+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-11-30T02:38:11.237+0200] {processor.py:157} INFO - Started process (PID=7005) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:11.248+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:38:11.249+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:11.249+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:11.253+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:11.252+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:38:11.253+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:11.253+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:38:11.253+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:11.262+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-11-30T02:38:47.818+0200] {processor.py:157} INFO - Started process (PID=7333) to work on /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:47.831+0200] {processor.py:829} INFO - Processing file /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-30T02:38:47.834+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:47.833+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:47.840+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:47.839+0200] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-30T02:38:47.841+0200] {logging_mixin.py:154} INFO - [2023-11-30T02:38:47.841+0200] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-30T02:38:47.841+0200] {processor.py:841} WARNING - No viable dags retrieved from /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-30T02:38:47.859+0200] {processor.py:179} INFO - Processing /home/seva/UCU/AutomatedDataPipelines/Homework1/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.048 seconds

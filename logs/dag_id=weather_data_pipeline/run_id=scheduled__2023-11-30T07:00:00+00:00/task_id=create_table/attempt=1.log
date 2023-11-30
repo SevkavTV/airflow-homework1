@@ -1,0 +1,39 @@
+[2023-11-30T12:57:18.671+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T12:57:18.678+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T12:57:18.678+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T12:57:18.701+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): create_table> on 2023-11-30 07:00:00+00:00
+[2023-11-30T12:57:18.704+0200] {standard_task_runner.py:57} INFO - Started process 20552 to run task
+[2023-11-30T12:57:18.707+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'create_table', 'scheduled__2023-11-30T07:00:00+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmp97ehw6oc']
+[2023-11-30T12:57:18.709+0200] {standard_task_runner.py:85} INFO - Job 115: Subtask create_table
+[2023-11-30T12:57:18.751+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T12:57:18.900+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T07:00:00+00:00'
+[2023-11-30T12:57:18.901+0200] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-30T12:57:18.904+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=weather_data_pipeline, task_id=create_table, execution_date=20231130T070000, start_date=20231130T105718, end_date=20231130T105718
+[2023-11-30T12:57:18.933+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T12:57:19.006+0200] {taskinstance.py:2778} INFO - 5 downstream tasks scheduled from follow-on schedule check
+[2023-11-30T13:15:45.650+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T13:15:45.656+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T13:15:45.656+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T13:15:45.676+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): create_table> on 2023-11-30 07:00:00+00:00
+[2023-11-30T13:15:45.678+0200] {standard_task_runner.py:57} INFO - Started process 22723 to run task
+[2023-11-30T13:15:45.683+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'create_table', 'scheduled__2023-11-30T07:00:00+00:00', '--job-id', '206', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmpvfgstpfm']
+[2023-11-30T13:15:45.685+0200] {standard_task_runner.py:85} INFO - Job 206: Subtask create_table
+[2023-11-30T13:15:45.725+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T13:15:45.839+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T07:00:00+00:00'
+[2023-11-30T13:15:45.840+0200] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-30T13:15:45.845+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=weather_data_pipeline, task_id=create_table, execution_date=20231130T070000, start_date=20231130T111545, end_date=20231130T111545
+[2023-11-30T13:15:45.900+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T13:15:45.972+0200] {taskinstance.py:2778} INFO - 5 downstream tasks scheduled from follow-on schedule check
+[2023-11-30T13:25:51.371+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T13:25:51.381+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [queued]>
+[2023-11-30T13:25:51.381+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T13:25:51.400+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): create_table> on 2023-11-30 07:00:00+00:00
+[2023-11-30T13:25:51.402+0200] {standard_task_runner.py:57} INFO - Started process 23974 to run task
+[2023-11-30T13:25:51.407+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'create_table', 'scheduled__2023-11-30T07:00:00+00:00', '--job-id', '283', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmpb_a5mh0v']
+[2023-11-30T13:25:51.409+0200] {standard_task_runner.py:85} INFO - Job 283: Subtask create_table
+[2023-11-30T13:25:51.456+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.create_table scheduled__2023-11-30T07:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T13:25:51.594+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T07:00:00+00:00'
+[2023-11-30T13:25:51.595+0200] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-30T13:25:51.598+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=weather_data_pipeline, task_id=create_table, execution_date=20231130T070000, start_date=20231130T112551, end_date=20231130T112551
+[2023-11-30T13:25:51.635+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T13:25:51.706+0200] {taskinstance.py:2778} INFO - 5 downstream tasks scheduled from follow-on schedule check

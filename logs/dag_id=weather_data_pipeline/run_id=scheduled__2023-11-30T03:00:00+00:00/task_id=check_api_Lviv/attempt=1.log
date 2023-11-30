@@ -1,0 +1,162 @@
+[2023-11-30T12:41:43.456+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T12:41:43.461+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T12:41:43.461+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T12:41:43.485+0200] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): check_api_Lviv> on 2023-11-30 03:00:00+00:00
+[2023-11-30T12:41:43.489+0200] {standard_task_runner.py:57} INFO - Started process 18628 to run task
+[2023-11-30T12:41:43.494+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'check_api_Lviv', 'scheduled__2023-11-30T03:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmpj5z0qwp5']
+[2023-11-30T12:41:43.496+0200] {standard_task_runner.py:85} INFO - Job 31: Subtask check_api_Lviv
+[2023-11-30T12:41:43.542+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T12:41:43.669+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='check_api_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T03:00:00+00:00'
+[2023-11-30T12:41:43.670+0200] {http.py:130} INFO - Poking: data/3.0/onecall
+[2023-11-30T12:41:43.683+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 148, in poke
+    raise exc
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 132, in poke
+    response = hook.run(
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 145, in run
+    session = self.get_conn(headers)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 98, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `openweathermap_conn` isn't defined
+[2023-11-30T12:41:43.686+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=weather_data_pipeline, task_id=check_api_Lviv, execution_date=20231130T030000, start_date=20231130T104143, end_date=20231130T104143
+[2023-11-30T12:41:43.704+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task check_api_Lviv (The conn_id `openweathermap_conn` isn't defined; 18628)
+[2023-11-30T12:41:43.714+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T12:41:43.791+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-30T12:56:44.435+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T12:56:44.442+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T12:56:44.443+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T12:56:44.461+0200] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): check_api_Lviv> on 2023-11-30 03:00:00+00:00
+[2023-11-30T12:56:44.467+0200] {standard_task_runner.py:57} INFO - Started process 20457 to run task
+[2023-11-30T12:56:44.473+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'check_api_Lviv', 'scheduled__2023-11-30T03:00:00+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmp5khwchvc']
+[2023-11-30T12:56:44.475+0200] {standard_task_runner.py:85} INFO - Job 98: Subtask check_api_Lviv
+[2023-11-30T12:56:44.516+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T12:56:44.633+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='check_api_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T03:00:00+00:00'
+[2023-11-30T12:56:44.634+0200] {http.py:130} INFO - Poking: data/3.0/onecall
+[2023-11-30T12:56:44.637+0200] {base.py:73} INFO - Using connection ID 'openweathermap_conn' for task execution.
+[2023-11-30T12:56:44.758+0200] {http.py:178} ERROR - HTTP error: Unauthorized
+[2023-11-30T12:56:44.758+0200] {http.py:179} ERROR - {"cod":401, "message": "Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info."}
+[2023-11-30T12:56:44.764+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 176, in check_response
+    response.raise_for_status()
+  File "/home/seva/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/3.0/onecall?appid=***&q=Lviv
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 148, in poke
+    raise exc
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 132, in poke
+    response = hook.run(
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 166, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 217, in run_and_check
+    self.check_response(response)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 180, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 401:Unauthorized
+[2023-11-30T12:56:44.768+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=weather_data_pipeline, task_id=check_api_Lviv, execution_date=20231130T030000, start_date=20231130T105644, end_date=20231130T105644
+[2023-11-30T12:56:44.804+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 98 for task check_api_Lviv (401:Unauthorized; 20457)
+[2023-11-30T12:56:44.825+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T12:56:44.902+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-30T13:15:09.852+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T13:15:09.858+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T13:15:09.858+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T13:15:09.879+0200] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): check_api_Lviv> on 2023-11-30 03:00:00+00:00
+[2023-11-30T13:15:09.882+0200] {standard_task_runner.py:57} INFO - Started process 22622 to run task
+[2023-11-30T13:15:09.886+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'check_api_Lviv', 'scheduled__2023-11-30T03:00:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmpz1xvr_xp']
+[2023-11-30T13:15:09.888+0200] {standard_task_runner.py:85} INFO - Job 189: Subtask check_api_Lviv
+[2023-11-30T13:15:09.938+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T13:15:10.130+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='check_api_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T03:00:00+00:00'
+[2023-11-30T13:15:10.131+0200] {http.py:130} INFO - Poking: data/3.0/onecall
+[2023-11-30T13:15:10.134+0200] {base.py:73} INFO - Using connection ID 'openweathermap_conn' for task execution.
+[2023-11-30T13:15:10.230+0200] {http.py:178} ERROR - HTTP error: Unauthorized
+[2023-11-30T13:15:10.231+0200] {http.py:179} ERROR - {"cod":401, "message": "Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info."}
+[2023-11-30T13:15:10.238+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 176, in check_response
+    response.raise_for_status()
+  File "/home/seva/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/3.0/onecall?appid=***&q=Lviv
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 148, in poke
+    raise exc
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 132, in poke
+    response = hook.run(
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 166, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 217, in run_and_check
+    self.check_response(response)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 180, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 401:Unauthorized
+[2023-11-30T13:15:10.241+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=weather_data_pipeline, task_id=check_api_Lviv, execution_date=20231130T030000, start_date=20231130T111509, end_date=20231130T111510
+[2023-11-30T13:15:10.266+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 189 for task check_api_Lviv (401:Unauthorized; 22622)
+[2023-11-30T13:15:10.314+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T13:15:10.380+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-30T13:24:59.658+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T13:24:59.669+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [queued]>
+[2023-11-30T13:24:59.670+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T13:24:59.694+0200] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): check_api_Lviv> on 2023-11-30 03:00:00+00:00
+[2023-11-30T13:24:59.696+0200] {standard_task_runner.py:57} INFO - Started process 23836 to run task
+[2023-11-30T13:24:59.702+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data_pipeline', 'check_api_Lviv', 'scheduled__2023-11-30T03:00:00+00:00', '--job-id', '261', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline.py', '--cfg-path', '/tmp/tmpzudrgbyz']
+[2023-11-30T13:24:59.704+0200] {standard_task_runner.py:85} INFO - Job 261: Subtask check_api_Lviv
+[2023-11-30T13:24:59.754+0200] {task_command.py:416} INFO - Running <TaskInstance: weather_data_pipeline.check_api_Lviv scheduled__2023-11-30T03:00:00+00:00 [running]> on host DESKTOP-VD1PANR.
+[2023-11-30T13:24:59.894+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_data_pipeline' AIRFLOW_CTX_TASK_ID='check_api_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T03:00:00+00:00'
+[2023-11-30T13:24:59.895+0200] {http.py:130} INFO - Poking: data/3.0/onecall
+[2023-11-30T13:24:59.900+0200] {base.py:73} INFO - Using connection ID 'openweathermap_conn' for task execution.
+[2023-11-30T13:24:59.993+0200] {http.py:178} ERROR - HTTP error: Unauthorized
+[2023-11-30T13:24:59.993+0200] {http.py:179} ERROR - {"cod":401, "message": "Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info."}
+[2023-11-30T13:24:59.999+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 176, in check_response
+    response.raise_for_status()
+  File "/home/seva/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/3.0/onecall?appid=***&q=Lviv
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 148, in poke
+    raise exc
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 132, in poke
+    response = hook.run(
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 166, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 217, in run_and_check
+    self.check_response(response)
+  File "/home/seva/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 180, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 401:Unauthorized
+[2023-11-30T13:25:00.004+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=weather_data_pipeline, task_id=check_api_Lviv, execution_date=20231130T030000, start_date=20231130T112459, end_date=20231130T112500
+[2023-11-30T13:25:00.027+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 261 for task check_api_Lviv (401:Unauthorized; 23836)
+[2023-11-30T13:25:00.047+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T13:25:00.167+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
